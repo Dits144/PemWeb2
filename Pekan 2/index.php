@@ -79,7 +79,7 @@ Jumlah Beli : <?= $_POST['jumlah'] ?>
         $harga = 4200000 * $_POST['jumlah'];
         echo 'Total Belanja : ' . $harga;
 
-    } elseif($_POST['produk'] == 'kulkas' && $_POST['jumlah'] >=1 ){
+    }elseif($_POST['produk'] == 'kulkas' && $_POST['jumlah'] >=1 ){
             $harga = 3100000 * $_POST['jumlah'];
             echo 'Total Belanja : ' . $harga;
     }elseif($_POST['produk'] == 'mesincuci' && $_POST['jumlah'] >=1){
